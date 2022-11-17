@@ -1,1 +1,1359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="author_email" content="vikask4590@gmail.com" />
+    <title>Free Websitesite Builder</title>
+    <!--Stylesheets-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <!--Editor Styles-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://prelaunch-paraclete.freewebsitesite.com/Templates/css/editor_pro.css"
+    />
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://prelaunch-paraclete.freewebsitesite.com/Templates/css/template.css"
+    />
+    <!--<script src="https://prelaunch-paraclete.freewebsitesite.com/Templates/js/wow.min.js"></script>-->
+
+    <script
+      defer=""
+      async=""
+      src="https://prelaunch-paraclete.freewebsitesite.com/Templates/js/template.js"
+    ></script>
+
+    <script defer="">
+      document.oncontextmenu = function () {
+        // return false;
+      };
+      $(document).ready(function () {});
+
+      const scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://startbootstrap.github.io/startbootstrap-landing-page/vendor/simple-line-icons/css/simple-line-icons.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+      :root {
+        --purple: #0c9ccd;
+        --blue: #3243f8;
+        --gradient: linear-gradient(90deg, var(--purple), var(--blue));
+      }
+
+      * {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+      }
+
+      *::selection {
+        background: var(--blue);
+        color: #fff;
+      }
+
+      html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+      }
+
+      body {
+        background: #f9f9f9;
+      }
+      .logo {
+        color: var(--blue);
+      }
+      section {
+        min-height: 100vh;
+        padding: 0 9%;
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.8rem 3rem;
+        border-radius: 5rem;
+        background: var(--gradient);
+        font-size: 1.7rem;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        transition: all 0.3s linear;
+      }
+
+      .btn:hover {
+        transform: scale(1.1);
+      }
+
+      .heading {
+        text-align: center;
+        background: var(--gradient);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        padding: 1rem;
+      }
+
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        padding: 2rem 9%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+      }
+
+      header .logo {
+        font-size: 2rem;
+        color: var(--purple);
+      }
+
+      header .logo span {
+        color: var(--blue);
+      }
+
+      header .navbar a {
+        font-size: 1.7rem;
+        margin-left: 2rem;
+        color: var(--purple);
+      }
+
+      header .navbar a:hover {
+        color: var(--blue);
+      }
+
+      header input {
+        display: none;
+      }
+
+      header label {
+        font-size: 3rem;
+        color: var(--purple);
+        cursor: pointer;
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("https://www.freewebsitesite.com/image-gallery/img/img1663243545.png")
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .home .image img {
+        width: 40vw;
+        animation: float 3s linear infinite;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0rem);
+        }
+        50% {
+          transform: translateY(-3.5rem);
+        }
+      }
+
+      .home .content h1 {
+        font-size: 5.5rem;
+        color: #333;
+        text-transform: uppercase;
+      }
+
+      .home .content h1 span {
+        color: var(--blue);
+        text-transform: uppercase;
+      }
+
+      .home .content p {
+        font-size: 1.7rem;
+        color: #666;
+        padding: 1rem 0;
+      }
+
+      .features .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .features .box-container .box {
+        flex: 1 1 30rem;
+        background: #fff;
+        border-radius: 0.5rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        margin: 1.5rem;
+        padding: 3rem 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        transition: 0.2s linear;
+      }
+
+      .features .box-container .box img {
+        height: 15rem;
+      }
+
+      .features .box-container .box h3 {
+        font-size: 2rem;
+        color: #333;
+        padding-top: 1rem;
+      }
+
+      .features .box-container .box p {
+        font-size: 1.3rem;
+        color: #666;
+        padding: 1rem 0;
+      }
+
+      .about {
+        background: url("https://www.freewebsitesite.com/image-gallery/img/img1663244110.png")
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 3rem;
+      }
+
+      .about .column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .about .column .image {
+        flex: 1 1 40rem;
+      }
+
+      .about .column .image img {
+        width: 100%;
+      }
+
+      .about .column .content {
+        flex: 1 1 40rem;
+      }
+
+      .about .column .content h3 {
+        font-size: 3rem;
+        color: #666;
+      }
+
+      .about .column .content p {
+        font-size: 1.5rem;
+        color: #666;
+        padding: 1rem 0;
+      }
+
+      .about .column .content .buttons a:last-child {
+        margin-left: 2rem;
+      }
+
+      .newsletter {
+        text-align: center;
+        padding: 5rem 1rem;
+        background: url("https://www.freewebsitesite.com/image-gallery/img/img1663244166.png")
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .newsletter h3 {
+        color: #fff;
+        font-size: 3rem;
+        text-transform: uppercase;
+      }
+
+      .newsletter p {
+        color: #fff;
+        font-size: 1.6rem;
+        margin: 2rem auto;
+        width: 70rem;
+      }
+
+      .newsletter form {
+        display: flex;
+        max-width: 70rem;
+        border: 0.2rem solid #fff;
+        padding: 0.5rem;
+        border-radius: 5rem;
+        margin: 2rem auto;
+        height: 5.5rem;
+      }
+
+      .newsletter form input[type="email"] {
+        padding: 0 2rem;
+        font-size: 1.7rem;
+        background: none;
+        width: 100%;
+        color: #fff;
+        text-transform: none;
+        background: none;
+      }
+
+      .newsletter form input[type="email"]::placeholder {
+        color: #eee;
+        text-transform: capitalize;
+      }
+
+      .newsletter form input[type="submit"] {
+        background: #fff;
+        width: 20rem;
+        font-size: 1.7rem;
+        border-radius: 5rem;
+        cursor: pointer;
+      }
+
+      .newsletter form input[type="submit"]:hover {
+        color: var(--blue);
+      }
+
+      .review .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .review .box-container .box {
+        background: #fff;
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        flex: 1 1 30rem;
+        border-radius: 0.5rem;
+      }
+
+      .review .box-container .box .fa-quote-right {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 8rem;
+        color: var(--blue);
+        opacity: 0.3;
+      }
+
+      .review .box-container .box .user img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 7rem;
+        width: 7rem;
+        margin-top: 2rem;
+      }
+
+      .review .box-container .box .user h3 {
+        color: var(--blue);
+        font-size: 2rem;
+      }
+
+      .review .box-container .box .user .stars i {
+        color: var(--purple);
+        font-size: 1.5rem;
+        padding: 1rem 0;
+      }
+
+      .review .box-container .box .comment {
+        color: #666;
+        font-size: 1.4rem;
+        padding: 1rem;
+      }
+
+      .pricing .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .pricing .box-container .box {
+        flex: 1 1 27rem;
+        margin: 1rem;
+        padding: 1rem;
+        background: #fff;
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+
+      .pricing .box-container .box:hover {
+        border: 0.2rem solid var(--blue);
+      }
+
+      .pricing .box-container .box .title {
+        color: var(--purple);
+        font-size: 2.5rem;
+        padding-top: 1rem;
+      }
+
+      .pricing .box-container .box .price {
+        font-size: 4rem;
+        color: var(--blue);
+        padding: 1rem 0;
+      }
+
+      .pricing .box-container .box .price span {
+        font-size: 2rem;
+      }
+
+      .pricing .box-container .box ul {
+        padding: 1rem 0;
+        list-style: none;
+      }
+
+      .pricing .box-container .box ul li {
+        font-size: 1.7rem;
+        color: #666;
+        padding: 0.5rem 0;
+      }
+
+      .pricing .box-container .box ul li .fa-check {
+        color: lightgreen;
+      }
+
+      .pricing .box-container .box ul li .fa-times {
+        color: tomato;
+      }
+      .box .changed {
+        color: var(--purple);
+      }
+
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 4rem;
+      }
+
+      .contact .image {
+        flex: 1 1 40rem;
+      }
+
+      .contact .image img {
+        width: 100%;
+        padding: 2rem;
+      }
+
+      .contact form {
+        flex: 1 1 40rem;
+        padding: 2rem 3rem;
+        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        background: #fff;
+      }
+
+      .contact form .heading {
+        text-align: left;
+        padding: 0;
+        padding-bottom: 2rem;
+      }
+
+      .contact form .inputBox {
+        position: relative;
+      }
+
+      .contact form .inputBox input,
+      .contact form .inputBox textarea {
+        width: 100%;
+        background: none;
+        color: #666;
+        margin: 1.5rem 0;
+        padding: 0.5rem 0;
+        font-size: 1.7rem;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+        text-transform: none;
+      }
+
+      .contact form .inputBox textarea {
+        resize: none;
+        height: 13rem;
+      }
+
+      .contact form .inputBox label {
+        position: absolute;
+        top: 1.7rem;
+        left: 0;
+        font-size: 1.7rem;
+        color: #666;
+        transition: 0.2s linear;
+      }
+
+      .contact form input:focus ~ label,
+      .contact form input:valid ~ label,
+      .contact form textarea:focus ~ label,
+      .contact form textarea:valid ~ label {
+        top: -0.5rem;
+        font-size: 1.5rem;
+        color: var(--blue);
+      }
+      .contact form label {
+        color: var(--blue);
+      }
+
+      .image {
+        min-height: fit-content;
+      }
+
+      .footer {
+        padding-top: 3rem;
+        background: url("https://www.freewebsitesite.com/image-gallery/img/img1663244229.png")
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .footer .box-container .box {
+        flex: 1 1 25rem;
+        margin: 2rem;
+      }
+
+      .footer .box-container .box h3 {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        color: #fff;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+      }
+
+      .footer .box-container .box p {
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        color: #eee;
+      }
+
+      .footer .box-container .box a {
+        display: block;
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        color: #eee;
+      }
+
+      .footer .box-container .box a:hover {
+        text-decoration: underline;
+      }
+
+      .footer .box-container .box .info {
+        display: flex;
+        align-items: center;
+      }
+
+      .footer .box-container .box .info i {
+        margin: 0.5rem 0;
+        margin-right: 1rem;
+        border-radius: 50%;
+        background: #fff;
+        color: var(--blue);
+        font-size: 1.5rem;
+        height: 4.5rem;
+        width: 4.5rem;
+        line-height: 4.5rem;
+        text-align: center;
+      }
+
+      .footer .credit {
+        font-size: 2rem;
+        font-weight: normal;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        border-top: 0.1rem solid #fff5;
+        padding: 2.5rem 1rem;
+        text-align: center;
+      }
+
+      /* media queries  */
+
+      @media (max-width: 1200px) {
+        html {
+          font-size: 55%;
+        }
+      }
+
+      @media (max-width: 991px) {
+        section {
+          padding: 0 3%;
+          padding-top: 7.5rem;
+          padding-bottom: 2rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .form-image {
+          display: none;
+        }
+
+        header .navbar {
+          flex-direction: column;
+        }
+
+        header label {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        header .navbar {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background: #fff;
+          padding: 1rem 2rem;
+          border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          transform-origin: top;
+          transform: scaleY(0);
+          opacity: 0;
+          transition: 0.2s linear;
+        }
+
+        header .navbar a {
+          display: block;
+          margin: 2rem 0;
+          font-size: 2rem;
+        }
+
+        header input:checked ~ .navbar {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+
+        header input:checked ~ label::before {
+          content: "\f00d";
+        }
+
+        .home {
+          flex-flow: column-reverse;
+        }
+
+        .home .image img {
+          width: 100%;
+        }
+
+        .home .content h3 {
+          font-size: 3.6rem;
+        }
+
+        .home .content p {
+          font-size: 1.5rem;
+        }
+
+        .about {
+          background-position: right;
+        }
+
+        .newsletter p {
+          width: auto;
+        }
+      }
+
+      @media (max-width: 450px) {
+        html {
+          font-size: 50%;
+        }
+
+        .about .column .content .buttons a {
+          width: 100%;
+          text-align: center;
+        }
+
+        .about .column .content .buttons a:last-child {
+          margin: 1rem 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="edit" id="content-area">
+    <header>
+      <a href="#home" class="logo">
+        <span class="changed" id="try">Auto Glass Repair</span>
+      </a>
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">services</a>
+        <a href="#about">about</a>
+        <a href="#review">review</a>
+        <a href="#pricing">pricing</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home" style="min-height: fit-content">
+      <div class="content">
+        <h1 style="font-size: 45px">
+          Auto glass&nbsp;<span><br />Repair shop</span>
+        </h1>
+        <p>
+          With a network of 90+ conveniently located service centers across 50+
+          cities with a fleet of mobile vans, aIS windshield experts, an ISO
+          9001 : 2015 certified company, is india's largest automotive glass
+          repair and replacement company. AIS windshield experts is a preferred
+          choice of car owners, insurance companies and fleets.
+        </p>
+        <a
+          href="#contact"
+          class="btn waves-effect waves-light changed"
+          style="color: rgb(255, 255, 255)"
+          >Contact Now</a
+        >
+      </div>
+
+      <div class="image">
+        <img
+          src="https://raw.githubusercontent.com/vikas7754/Multi-Dependent-Dropdown-List-Using-Ajax-and-jQuery/master/DB/IMG_20221114_211412.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features" style="min-height: fit-content">
+      <h2 class="heading">Our Services</h2>
+
+      <div class="box-container">
+        <div
+          class="box changed"
+          style="transform: translate(3.73438px, -0.0117188px)"
+          data-move-x="3.734375"
+          data-move-y="-0.01171875"
+        >
+          <img
+            src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/fact-2.svg"
+            alt=""
+            class="changed"
+            style="height: 100px"
+            data-resize-height="100"
+            width="120px"
+          />
+          <h3><b class="text-center">Any Vehicle, Any Glass</b></h3>
+        </div>
+
+        <div class="box changed">
+          <img
+            src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/fact-1.svg"
+            alt=""
+            class="changed"
+            style="height: 100px"
+            data-resize-height="100"
+          />
+          <h3>
+            <b class="text-center">Doorstep Facility</b>
+          </h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/fact-4.svg"
+            alt=""
+            class="changed"
+            style="height: 100px"
+            data-resize-height="100"
+          />
+          <h3>
+            <b class="text-center">1 - year warranty</b>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about" style="min-height: fit-content">
+      <h2 class="heading">about US</h2>
+
+      <div class="column">
+        <div class="image" style="width: 200px">
+          <img
+            src="https://www.clipartmax.com/png/full/122-1223297_carefully-clean-the-area-where-the-new-glass-is-going-auto-glass.png"
+            alt=""
+          />
+        </div>
+
+        <div class="content">
+          <h3>Faster, safer, better</h3>
+          <ul style="font-size: 17px" class="m-5">
+            <li>Windshield replacement in under 2 hours</li>
+            <li>Doorstep facility</li>
+            <li>Conveniently located service centres</li>
+            <li>Genuine products used</li>
+            <li>Quality workmanship delivered through trained technicians</li>
+            <li>One-year warranty on workmanship and material</li>
+            <li>Transparent pricing</li>
+            <li>Best CSI (Customer Satisfaction Index): 95% current</li>
+            <li>Conveniently located centres</li>
+            <li>
+              Widest range of products - for all cars, both Indian and imported
+            </li>
+            <li>Specialised repair technology for chips on windshields</li>
+            <li>
+              Helpline service with national toll-free number: 0000-000-0000
+            </li>
+          </ul>
+          <div class="buttons">
+            <a href="#contact" class="btn waves-effect waves-light"
+              >Contact us</a
+            >
+            <a href="#" class="btn waves-effect waves-light">More details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- newsletter  -->
+
+    <div class="newsletter" style="min-height: fit-content">
+      <h3
+        class="changed"
+        style="transform: translate(9.79688px, 1.15234px)"
+        data-move-x="9.796875"
+        data-move-y="1.15234375"
+      >
+        Subscribe For daily updates
+      </h3>
+      <p>please enter your email address to never miss an update.</p>
+      <form
+        action="https://prelaunch-paraclete.freewebsitesite.com/Templates/phpAction/send_mail.php"
+        method="post"
+      >
+        <input name="email" type="email" placeholder="enter your email" />
+        <input name="user_email" type="hidden" value="vikask4590@gmail.com" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+      </form>
+    </div>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review" style="min-height: fit-content">
+      <h2 class="heading">customers review</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img
+              src="https://www.freewebsitesite.com/image-gallery/img/img1663068487.png"
+              alt=""
+            />
+            <h3>alina joe</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="comment">
+              <span
+                style="
+                  color: rgb(51, 51, 51);
+                  font-family: 'Open Sans', sans-serif;
+                  font-size: 16px;
+                  text-align: start;
+                  text-transform: none;
+                "
+                >I had a huge crack in my windshield and they replaced it. They
+                came to my house and got it replaced in a short period of time.
+                It didn't interrupt my day at all.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img
+              src="https://www.freewebsitesite.com/image-gallery/img/img1663068563.png"
+              alt=""
+            />
+            <h3>John carter</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="comment">
+              <span
+                style="
+                  color: rgb(51, 51, 51);
+                  font-family: 'Open Sans', sans-serif;
+                  font-size: 16px;
+                  text-align: start;
+                  text-transform: none;
+                "
+                >They replaced my cracked windshield. They came to my house and
+                replaced the windshield with OEM glass which was paid for by my
+                car insurance</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img
+              src="https://www.freewebsitesite.com/image-gallery/img/img1663068540.png"
+              alt=""
+            />
+            <h3>anamika jain</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="comment">
+              <span
+                style="
+                  color: rgb(51, 51, 51);
+                  font-family: 'Open Sans', sans-serif;
+                  font-size: 16px;
+                  text-align: start;
+                  text-transform: none;
+                "
+                >I had a huge crack in my windshield and they replaced it. They
+                came to my house and got it replaced in a short period of time.
+                It didn't interrupt my day at all.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing" style="min-height: fit-content">
+      <h2 class="heading">Any Car, Any Model, Any Glass</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <div style="height: 200px">
+            <img
+              src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/car-2.webp"
+              width="100%"
+            />
+          </div>
+          <div class="text-center mt-1">
+            <h3 class="changed">General Segment</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div style="height: 200px">
+            <img
+              src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/car-1.webp"
+              width="100%"
+            />
+          </div>
+          <div class="text-center mt-1">
+            <h3 style="background: rgb(255, 255, 255)" class="changed">
+              Luxury Segment
+            </h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container" style="height: 200px">
+            <img
+              src="https://cdn-fckad.nitrocdn.com/QQqEhdxzQCfGsIbVrVWwmnFZeiIEPRRw/assets/static/optimized/rev-4eac0fc/wp-content/themes/windshield/assets/images/truck.webp"
+              width="100%"
+            />
+          </div>
+          <div class="text-center mt-1">
+            <h3 style="background: rgb(255, 255, 255)" class="changed">
+              Commercial Segment
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- contact section starts  -->
+
+    <section
+      class="contact"
+      id="contact"
+      style="min-height: fit-content; background: #fff"
+    >
+      <!--<div class="form-image col-md-4">
+        <img src="https://easyfitautoglass.co.za/wp-content/uploads/2022/04/replacement-windscreen-by-Easyfit-Services.jpg" alt="" class="changed" height="955">
+    </div>-->
+      <form
+        action="https://prelaunch-paraclete.freewebsitesite.com/Templates/phpAction/send_mail.php"
+        method="post"
+        class="contact_form changed"
+      >
+        <h2 class="heading text-center" style="display: block; width: 100%">
+          Contact us
+        </h2>
+        <div class="form-group">
+          <label class="active changed" for="glass"
+            >Which glass is broken :</label
+          >
+          <select
+            class="form-control"
+            id="glass"
+            name="glass"
+            required=""
+            style="height: 30px"
+          >
+            <option value="">Select an Option</option>
+            <option value="Windshield">Windshield</option>
+            <option value="Back Window">Back Window</option>
+            <option value="Front Driver">Front Driver</option>
+            <option value="Front Passenger">Front Passenger</option>
+            <option value="Rear Driver">Rear Driver</option>
+            <option value="Rear Passenger">Rear Passenger</option>
+            <option value="Right Quarter">Right Quarter</option>
+            <option value="Left Quarter">Left Quarter</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="year">Year :</label>
+          <select
+            class="form-control"
+            id="year"
+            name="year"
+            required=""
+            style="height: 30px"
+          >
+            <option value="">Select Year</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="make">Make :</label>
+          <select
+            class="form-control"
+            id="make"
+            name="make"
+            required=""
+            style="height: 30px"
+          >
+            <option value="">Select Make</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="model">Model :</label>
+          <select
+            class="form-control"
+            id="model"
+            name="model"
+            required=""
+            style="height: 30px"
+          >
+            <option value="">Select Model</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="style">Style :</label>
+          <select
+            class="form-control"
+            id="style"
+            name="style"
+            required=""
+            style="height: 30px"
+          >
+            <option value="">Select Style</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="name">Name :</label
+          ><input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required=""
+            style="height: 30px"
+          />
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="email">Email :</label
+          ><input
+            type="email"
+            class="form-control"
+            id="email"
+            style="height: 30px"
+            name="email"
+            placeholder="Enter your email"
+            required=""
+          /><input
+            name="user_email"
+            type="hidden"
+            value="vikask4590@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label class="changed active" for="mobno">Mobile No :</label
+          ><input
+            type="text"
+            class="form-control"
+            id="mobile"
+            style="height: 30px"
+            name="mobno"
+            value=""
+            placeholder="Enter your mobile no."
+            required=""
+          />
+        </div>
+        <div class="form-group">
+          <label class="active changed" for="msg">Message :</label
+          ><textarea
+            class="form-control"
+            id="message"
+            name="msg"
+            placeholder="Enter your message"
+            required=""
+            rows="5"
+          ></textarea>
+        </div>
+
+        <div class="form-group mt-2" id="radio-btn" style="cursor: move">
+          <label class="radio active" style="margin-right: 15px"
+            ><input type="radio" name="at" id="at-shop" checked="" /> repair at
+            shop</label
+          >
+          <label class="radio active"
+            ><input type="radio" name="at" id="at-home" /> Repair at home</label
+          >
+          <div class="form-group">
+            <div id="repair-address" style="display: none">
+              <label class="active changed" for="repairAddress"
+                >Your Address :</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="raddr"
+                placeholder="Enter your address"
+                name="repairAddress"
+                style="height: 30px"
+              />
+            </div>
+            <div id="repair-date" style="display: block" class="mt-2">
+              <label class="active changed" for="repairDate"
+                >Date and Time :</label
+              >
+              <input
+                type="datetime-local"
+                class="form-control"
+                name="repairDate"
+                required=""
+                style="height: 30px"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <button
+              type="submit"
+              class="btn btn-success btn-lg btn-login mb-2 waves-effect waves-light"
+              name="contact"
+            >
+              <i
+                class="size-16 changed fab fa-telegram"
+                style="margin-right: 7px"
+              ></i
+              >Send Message
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- contact section edns -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer" style="min-height: fit-content">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            pariatur rerum consectetur architecto ad tempora blanditiis quo
+            aliquid inventore a.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">features</a>
+          <a href="#">about</a>
+          <a href="#">review</a>
+          <a href="#">pricing</a>
+          <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">pinterest</a>
+          <a href="#">twitter</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <div class="info">
+            <i class="fas fa-phone"></i>
+            <p>
+              +123-456-7890 <br />
+              +111-2222-333
+            </p>
+          </div>
+          <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p>
+              example@gmail.com <br />
+              example@gmail.com
+            </p>
+          </div>
+          <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>mumbai, india - 400104</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="credit">© copyright @ 2021 by Paracelete Themes</h2>
+    </div>
+
+    <!-- footer section ends -->
+
+    <div class="hiddendiv common"></div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.freewebsitesite.com/prelaunch/Templates/phpAction/script.js?v=123456"></script>
+    <script>
+      let radio = document.getElementById("radio-btn");
+      radio.onchange = function () {
+        if (document.getElementById("at-home").checked) {
+          document.getElementById("repair-address").style.display = "block";
+        } else {
+          document.getElementById("repair-date").style.display = "block";
+          document.getElementById("repair-address").style.display = "none";
+          document.getElementById("raddr").value = "";
+        }
+      };
+    </script>
+  </body>
+</html>
 
